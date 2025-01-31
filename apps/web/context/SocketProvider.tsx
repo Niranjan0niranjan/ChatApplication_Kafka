@@ -9,6 +9,7 @@ interface SocketProviderProps {
 
 // Define the context interface for socket operations
 interface ISocketContext {
+    
   sendMessage: (msg: string) => any;
   messages: string[];
 }

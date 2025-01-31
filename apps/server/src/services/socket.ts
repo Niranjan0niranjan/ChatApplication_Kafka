@@ -8,7 +8,7 @@ const pub = new Redis({
     host: "redis-19400.crce182.ap-south-1-1.ec2.redns.redis-cloud.com",
     port: 19400,
     username: "default",
-    password: "8u3I6ddaSt9i880HIKbxCZveJOIFd0PK",
+    password: "",
     // tls: false // Disables SSL
 });
 
@@ -16,7 +16,7 @@ const sub = new Redis({
     host: "redis-19400.crce182.ap-south-1-1.ec2.redns.redis-cloud.com",
     port: 19400,
     username: "default",
-    password: "8u3I6ddaSt9i880HIKbxCZveJOIFd0PK",
+    password: "",
     // tls: false // Disables SSL
 });
 
